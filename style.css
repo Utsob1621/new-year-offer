@@ -23,6 +23,19 @@ font-style: normal; */
 .font-2{
     font-family: "Inter", serif;
 }
+.primary-color{
+    color: #FF0000;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    font-family: "Inter", serif;
+    background-color: #FF0000;
+}
 
 /* body{
     max-width: 1440px;
@@ -125,9 +138,18 @@ font-style: normal; */
 }
 /* up-coming-section-style */
 .up-coming-section{
-    background-color: #FF00001A
-    #FF000000;
-    align-items: center;
+   
+}
+
+.up-coming{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.coming-btn{
+    margin: 48px 0 230px 0;
+    text-align: center;
 }
 
 
