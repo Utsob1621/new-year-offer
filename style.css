@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-1-(url) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-2-(url) */
+
+/* font--1--(sttle) */
+/* font-family: "Merriweather", serif;
+font-weight: 300;
+font-style: normal; */
+
+/* font-2--(style) */
+/* font-family: "Inter", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+/* font sheared style */
+
+.font-1{
+    font-family: "Merriweather", serif;
+}
+
+.font-2{
+    font-family: "Inter", serif;
+}
+
+/* body{
+    max-width: 1440px;
+    width: 100%;
+} */
+
+.header-section{
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ image.png) ;
+    /* background: linear-gradient(.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.header-sub{
+    padding: 132.75px 258px 132.75px 258px;
+    /* align-items: center; */
+    text-align: center;
+}
+.header-title{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.header-sub-title{
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+}
+
+/* OUR HOLIDAY DEALS section style */
+.holiday-deals{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 120px;
+}
+
+#off-offer{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.holiday-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.holiday-sub-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    /* margin-bottom: 48px; */
+}
+.holiday-image{
+    margin: 48px 0 120px 0;
+}
+
+/* Welcome to midnight party section style*/
+.midnight-section{
+    background-image: url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+}
+.midnight-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midnight-title{
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.midnight-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+}
+.midnight{
+    margin: 126px 39.17px 142px 126px;
+}
+
+.join-now{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.midnight-image{
+    margin: 68.11px 138px 67.23px 0;
+    width: 319.83px;
+    height: 464.66px;
+}
+/* up-coming-section-style */
+.up-coming-section{
+    background-color: #FF00001A
+    #FF000000;
+    align-items: center;
+}
+
+
+
