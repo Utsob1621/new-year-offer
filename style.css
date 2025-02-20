@@ -37,10 +37,18 @@ font-style: normal; */
     background-color: #FF0000;
 }
 
-/* body{
-    max-width: 1440px;
-    width: 100%;
-} */
+body{
+    /* max-width: 1440px;
+    width: 100%; */
+ /* margin: 0 140px; */
+}
+header{
+    margin: 0 140px;
+}
+
+main{
+    margin: 0 140px;
+}
 
 .header-section{
     background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ image.png) ;
@@ -106,6 +114,7 @@ font-style: normal; */
     background-size: cover;
     height: 600px;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 .midnight-section{
     display: flex;
@@ -138,7 +147,10 @@ font-style: normal; */
 }
 /* up-coming-section-style */
 .up-coming-section{
-   
+    margin-bottom: 120px;
+    padding: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .up-coming{
@@ -148,9 +160,216 @@ font-style: normal; */
 
 }
 .coming-btn{
-    margin: 48px 0 230px 0;
+    /* margin: 48px 0 230px 0; */
     text-align: center;
 }
 
+/* lcomnig soon section-style */
+.coming-soon-section{
+    gap: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+ /* soon-div-1 */
 
+ .coming-soon-title-description {
+    /* width: 393px; */
+ }
+.soon-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.soon-sub-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.soon-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+}
+
+/* soon-div-2 */
+.coming-soon-image{
+    border-radius: 50%;
+    padding: 49.08px;
+    border: 15px solid rgb(255, 0, 0);
+}
+
+/* sonn-div-3 */
+.coming-soon-2024{
+    /* width: 276px; */
+}
+.soon-title-2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.soon-description-2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+    margin-bottom: 50px;
+}
+/* Holidays Sale 50%-section-style */
+.holidays-texts{
+    text-align: center;
+}
+.holidays-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 16px;
+}
+.holidays-sub-title{
+    margin-bottom: 28px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+}
+.holidays-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+    margin-bottom: 64px;
+}
+
+/* holidays-images-style */
+.holidays-section{
+    margin-bottom: 120px;
+}
+.holidays-images{
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* gifts-section-sytle */
+.gifts-title{
+    font-size: 24px;
+    font-size: 700;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.gifts-sub-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.gifts-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+    margin-bottom: 48px;
+}
+
+/* gifts-images-box-style */
+.gifts-images{
+    max-width: 1320px;
+    width: 100%;
+}
+
+.gifts-images-div-one{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gifts-images-div-two{
+    display: flex;
+    gap: 24px;
+}
+
+.image-box{
+    width: 382px;
+    height: 382px;
+}
+
+/* Subscribe Newsletter- section-style */
+.Subscribe-section{
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+    margin-bottom: 120px;
+}
+.subscribe-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.subscribe-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+    margin-bottom: 48px;
+}
+
+.search{
+    /* width: 648px;
+    height: 72px; */
+    padding: 25px 300px 25px 30px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+.submit-btn{
+    padding: 24px 60px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    color: white;
+    background-color: #FF0000;
+}
+
+/* footer-section-style */
+.footer-sections{
+    padding: 120px 140px 120px 140px;
+    background-color: #070211;
+}
+.footer-section-one{
+    width: 1185px;
+    margin-bottom: 98px;
+    color: white;
+    display: flex;
+    gap: 440px;
+    
+}
+
+.footer-section-two{
+    margin-bottom: 98px;
+    text-align: center;
+}
+
+.footer-section-three{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.font-size{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.hr-t{
+    border: none;
+}
 
